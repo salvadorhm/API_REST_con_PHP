@@ -8,13 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <meta charset="UTF-8">
-    <title>Captcha Requests</title>
+    <title>QR Requests</title>
     </script>
 </head>
 
 <body>
     <div class="container">
-        <h1>Text to Captcha <a class="btn btn-primary" role="button" href="index.php">Back</a></h1>
+        <h1>Text to QR <a class="btn btn-primary" role="button" href="../index.php">Back</a></h1>
         <div class="container">
     
             <form action="" method="POST">
@@ -30,7 +30,7 @@
                 $text=$_POST["text"];
                 if(isset($text)){
                     $text = urlencode($text);
-                    $url = 'https://tools4devs.herokuapp.com/captcha/?text='.$text;
+                    $url = 'https://tools4devs.herokuapp.com/qr/?text='.$text;
                     $response = file_get_contents($url);
                     if($response !== false){
                         $result = json_decode($response);

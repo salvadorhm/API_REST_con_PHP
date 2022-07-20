@@ -10,12 +10,12 @@
     <div class="container">
         <h1>API REST with PHP</h1>
 
-        <a class="btn btn-primary" role="button" href="text2speech.php">Text to speech</a>
-        <a class="btn btn-primary" role="button" href="qr.php">Text to QR</a>
-        <a class="btn btn-primary" role="button" href="captcha.php">Text to Captcha</a>
-        <a class="btn btn-primary" role="button" href="lorem.php">Lorem ipsum generator</a>
-        <a class="btn btn-primary" role="button" href="password.php">Password generator</a>
-        <a class="btn btn-primary" role="button" href="encrypt.php">Text encrypt</a>
+        <a class="btn btn-primary" role="button" href="requests/text2speech.php">Text to speech</a>
+        <a class="btn btn-primary" role="button" href="requests/qr.php">Text to QR</a>
+        <a class="btn btn-primary" role="button" href="requests/captcha.php">Text to Captcha</a>
+        <a class="btn btn-primary" role="button" href="requests/lorem.php">Lorem ipsum generator</a>
+        <a class="btn btn-primary" role="button" href="requests/password.php">Password generator</a>
+        <a class="btn btn-primary" role="button" href="requests/encrypt.php">Text encrypt</a>
     </div>
    
       

@@ -14,7 +14,7 @@
 
 <body>
     <div class="container">
-        <h1>Encrypt <a class="btn btn-primary" role="button" href="index.php">Back</a></h1>
+        <h1>Encrypt <a class="btn btn-primary" role="button" href="../index.php">Back</a></h1>
         <div class="container">
     
             <form action="" method="POST">
